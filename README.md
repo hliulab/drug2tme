@@ -22,13 +22,11 @@ Run gradient_reveral.py (DANN) to build gradient_reversal layer and then conduct
 
 Run loss_and_metrics.py (MMD) to compute the MMD loss, which can measure the distribution of sourch and target domain. 
 
-#### 3.3.4 drug2tme models
-The encoder_decoder.py contains dae and discriminator and classifier
+#### 3.3.4 Definition of drug2tme model
+The encoder_decoder.py defines the denoising autoencoder, discriminator and classifier, and models.py defines the forward function and loss functions.
 
-models.py defines the forward function and loss functions.
-
-#### 3.2.5 train and eval
-pretraining.py & model_train.py (da and train encoders) : as the first stage of drug2tme training.we use this file to train encoders to achieve domain adaptation,asking cell lines and patients in sanme cancer type. we also train the cell predictor. 
+#### 3.2.5 Training and evaluation
+pretraining.py & model_train.py: as the first stage of drug2tme training.we use this file to train encoders to achieve domain adaptation,asking cell lines and patients in sanme cancer type. we also train the cell predictor. 
 
 tcga_main.py(train tme predictor) : in this stage, we freeze the encoders and cell predictor and then use some patient drug response data to train the tme predictor.
 

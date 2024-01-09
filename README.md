@@ -1,4 +1,4 @@
-<H1> Title: Cross-domain feature disentanglement for interpretable modeling of tumor microenvironment impact on drug response </H1>
+<H1> Cross-domain feature disentanglement for interpretable modeling of tumor microenvironment impact on drug response </H1>
 
 ## 1. Introduction
 **DRUG2TME** is a cross domain feature disentanglement method for  interpretable modelding of tumor microenvironment impact on drug response.

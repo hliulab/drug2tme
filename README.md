@@ -3,7 +3,7 @@
 ## Introduction
 **DRUG2TME** is a cross domain feature disentanglement method for  interpretable modelding of tumor microenvironment impact on drug response.
 ## Model architecture
-![architecture](main/image.png?raw=true)
+![architecture](image.png?raw=true)
 
 ##  Usage
 
